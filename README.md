@@ -7,7 +7,7 @@ It also includes simple explanation videos for each basic animation principle,
 helping people understand the principle.
 The app can adjust its UI based on which device user is using, and View’s width.
 
-[Screenshot](https://github.com/asir2004/animate-/blob/45d63e0eb52e018ff1f38ca256db48909f237759/Screenshot%202024-02-22%20at%2009.26.40.png)
+![Screenshot](https://github.com/asir2004/animate-/blob/45d63e0eb52e018ff1f38ca256db48909f237759/Screenshot%202024-02-22%20at%2009.26.40.png)
 
 TECH USED:
 
