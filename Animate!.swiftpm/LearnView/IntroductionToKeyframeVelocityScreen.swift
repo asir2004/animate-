@@ -22,7 +22,7 @@ struct IntroductionToTimeValueChartScreen: View {
                         .padding(.horizontal, 30)
                         .padding(.vertical, 10)
                     
-                    Text("Time-Value Chart")
+                    Text("TIME_VALUE_CHART")
                         .font(.callout)
                         .foregroundStyle(.secondary)
                 }
@@ -31,7 +31,7 @@ struct IntroductionToTimeValueChartScreen: View {
                         HStack {
                             VStack(alignment: .leading) {
                                 Image(systemName: "arrow.up")
-                                Text("Animated Value")
+                                Text("ANIMATED_VALUE")
                             }
                             
                             Spacer()
@@ -41,7 +41,7 @@ struct IntroductionToTimeValueChartScreen: View {
                         
                         HStack {
                             Spacer()
-                            Text("Time")
+                            Text("TIME")
                             Image(systemName: "arrow.right")
                         }
                     }
@@ -51,20 +51,20 @@ struct IntroductionToTimeValueChartScreen: View {
                 .frame(height: deviceIsiPadOrMac() ? 300 : 200)
                 
                 List {
-                    Section("Learn") {
+                    Section("LEARN") {
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("Time-Value Chart")
+                            Text("KEYFRAME_VELOCITY_SCREEN_TITLE")
                                 .font(.title)
                                 .bold()
                             
-                            Text("Look at the Time-Value Chart above these text, this chart shows the relationship between time and animated value (this might be position, scale, opacity etc). The horizontal axis represents time, while the vertical axis represents the animated value.")
+                            Text("KEYFRAME_VELOCITY_SCREEN_DETAIL")
                         }
                     }
                     
                     if showLink {
                         Section {
                             VStack(alignment: .leading, spacing: 7) {
-                                Text("But it′s not \"smooth\"…")
+                                Text("KEYFRAME_VELOCITY_SCREEN_FOOTNOTE")
                                     .font(.title)
                                     .bold()
                             }
@@ -72,7 +72,7 @@ struct IntroductionToTimeValueChartScreen: View {
                             NavigationLink {
                                 IntroductionToNonLinearAnimationScreen()
                             } label: {
-                                Label("Continue: Linear and Non-linear Animation", systemImage: "arrow.right")
+                                Label("CONTINUE_NON_LINEAR_ANIMATION", systemImage: "arrow.right")
                             }
                         }
                     }
@@ -102,7 +102,7 @@ struct IntroductionToTimeValueChartScreen: View {
                     }
                 }
             })
-            .navigationTitle("Time-Value Chart")
+            .navigationTitle("TIME_VALUE_CHART")
             .navigationBarTitleDisplayMode(.inline)
         }
     }

@@ -19,59 +19,59 @@ struct IntroductionToAnimationScreen: View {
                 .padding()
             
                 List {
-                    Section("Learn") {
+                    Section("LEARN") {
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("How we see animation?")
+                            Text("ANIMATION_SCREEN_SECTION_1_TITLE")
                                 .font(.title)
                                 .bold()
                             
-                            Text("In fact, animation is a sequence of pictures which shift quickly, then your brain blends them together let you feel they are moving. In professional terms, this is called persistence of vision.")
+                            Text("ANIMATION_SCREEN_SECTION_1_DETAIL")
                         }
                         
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("Where are animations used for?")
+                            Text("ANIMATION_SCREEN_SECTION_2_TITLE")
                                 .font(.title)
                                 .bold()
                             
-                            Text(.init("Animation makes characters come alive in movies, games and other literary and artistic works."))
+                            Text(.init("ANIMATION_SCREEN_SECTION_2_DETAIL_1"))
                             
-                            Text(.init("Animation in education makes explaining some theories simple."))
+                            Text(.init("ANIMATION_SCREEN_SECTION_2_DETAIL_2"))
                             
-                            Text(.init("Animation makes ads eye-catching."))
+                            Text(.init("ANIMATION_SCREEN_SECTION_2_DETAIL_3"))
                             
-                            Text(.init("Using great animations can make user experience (UX) higher level."))
+                            Text(.init("ANIMATION_SCREEN_SECTION_2_DETAIL_4"))
                         }
                         
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("Using great animations in your app can bring:")
+                            Text("ANIMATION_SCREEN_SECTION_3_TITLE")
                                 .font(.title)
                                 .bold()
                             
-                            Text(.init("**Visual Feedback**: Proper use of animations can give users a clear feedback, let them know an action is complete."))
+                            Text(.init("ANIMATION_SCREEN_SECTION_3_DETAIL_1"))
                             
-                            Text(.init("**Fun and Delight**: Interesting animations can tell a delighting story in your app, let users put their own minds into it."))
+                            Text(.init("ANIMATION_SCREEN_SECTION_3_DETAIL_2"))
                             
-                            Text(.init("**Unique Brand Identity**: If you have watched many ads made by tech companies, you can find them unique, like when you see the San Francisco font, you′ll know the ad is Apple′s, even you might haven′t watched the ad yet. Different companies have different animating method."))
+                            Text(.init("ANIMATION_SCREEN_SECTION_3_DETAIL_3"))
                         }
                     }
                     
                     Section {
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("So how we make it?")
+                            Text("ANIMATION_SCREEN_SECTION_4_TITLE")
                                 .font(.title)
                                 .bold()
                             
-                            Text("We usually use keyframes to make animations.")
+                            Text("ANIMATION_SCREEN_SECTION_4_DETAIL")
                         }
                         
                         NavigationLink {
                             IntroductionToKeyframeScreen()
                         } label: {
-                            Label("Continue: Keyframe", systemImage: "arrow.right")
+                            Label("CONTINUE_KEYFRAME", systemImage: "arrow.right")
                         }
                     }
                 }
-                .navigationTitle("Animation")
+                .navigationTitle("ANIMATION")
                 .navigationBarTitleDisplayMode(.inline)
             }
         }

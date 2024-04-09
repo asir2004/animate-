@@ -14,7 +14,7 @@ struct DiscoverAnimationsTimeValueChartScreen: View {
                         Section {
                             LazyVGrid(columns: geoSize.size.width < 550 ? layout1 : layout2, spacing: 15) {
                                 VStack(alignment: .leading) {
-                                    Text("Linear")
+                                    Text("LINEAR")
                                         .modifier(animationTitleStyle())
                                     
                                     Spacer()
@@ -31,10 +31,10 @@ struct DiscoverAnimationsTimeValueChartScreen: View {
                                 }
                                 
                                 VStack(alignment: .leading) {
-                                    Text("Ease-In")
+                                    Text("EASE_IN")
                                         .modifier(animationTitleStyle())
                                     
-                                    Text("The object gradually increases its velocity after animation starts.")
+                                    Text("EASE_IN_EXPLANATIONS")
                                         .modifier(animationDetailStyle())
                                     
                                     Spacer()
@@ -51,10 +51,10 @@ struct DiscoverAnimationsTimeValueChartScreen: View {
                                 }
                                 
                                 VStack(alignment: .leading) {
-                                    Text("Ease-Out")
+                                    Text("EASE_OUT")
                                         .modifier(animationTitleStyle())
                                     
-                                    Text("The object gradually decreases its velocity before animation ends.")
+                                    Text("EASE_OUT_EXPLANATIONS")
                                         .modifier(animationDetailStyle())
                                     
                                     Spacer()
@@ -71,10 +71,10 @@ struct DiscoverAnimationsTimeValueChartScreen: View {
                                 }
                                 
                                 VStack(alignment: .leading) {
-                                    Text("Ease-In-Out")
+                                    Text("EASE_IN_OUT")
                                         .modifier(animationTitleStyle())
                                     
-                                    Text("The combination of ease-in and ease-out animation.")
+                                    Text("EASE_IN_OUT_EXPLANATIONS")
                                         .modifier(animationDetailStyle())
                                     
                                     Spacer()
@@ -97,9 +97,9 @@ struct DiscoverAnimationsTimeValueChartScreen: View {
                 
                 if showLink {
                     List {
-                        Section("Continue") {
+                        Section("CONTINUE") {
                             VStack {
-                                Text("What′s the difference between various kinds of animation?")
+                                Text("VARIOUS_CHARTS_SCREEN_TITLE")
                                     .font(.title)
                                     .bold()
                             }
@@ -107,13 +107,13 @@ struct DiscoverAnimationsTimeValueChartScreen: View {
                             NavigationLink {
                                 DiscoverSwiftUIAnimationsScreen()
                             } label: {
-                                Label("Continue: Discover Different Kinds of Animation in SwiftUI", systemImage: "arrow.right")
+                                Label("CONTINUE_SWIFTUI_ANIMATIONS", systemImage: "arrow.right")
                             }
                         }
                     }
                 }
             }
-            .navigationTitle("Different Kinds of Time-Value Chart")
+            .navigationTitle("DIFFERENT_KINDS_OF_CHART")
             .navigationBarTitleDisplayMode(.inline)
         }
     }

@@ -1,0 +1,1910 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "ANCHOR_POINT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anchor Point"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "锚点"
+          }
+        }
+      }
+    },
+    "ANCHOR_POINT_SCREEN_SECTION_1_DETAIL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In animation, anchor point is a point where animation plays. The animated property (e.g. scaling, rotation, position…) of an object is recorded on its anchor point, properties like scale and rotation change relatively to that point. Remember the material point you learned from physics class? They are almost the same in function. Try it below!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在动画中，锚点是动画播放的点。对象的动画属性（例如缩放、旋转、位置等）记录在其锚点上，诸如缩放和旋转之类的属性相对于该点改变。还记得你在物理课上学到的质点吗？它们在功能上几乎相同。试试以下示例！"
+          }
+        }
+      }
+    },
+    "ANCHOR_POINT_SCREEN_SECTION_1_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What is Anchor Point?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "什么是锚点？"
+          }
+        }
+      }
+    },
+    "ANCHOR_POINT_SCREEN_SECTION_2_DETAIL_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. **Rotation**: A clock hand rotates surrounding the center of the clock."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. **旋转**：时钟的指针围绕时钟的中心旋转。"
+          }
+        }
+      }
+    },
+    "ANCHOR_POINT_SCREEN_SECTION_2_DETAIL_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2. **Scaling**: Imagine a growing rectangle, if you stuck one of its corners to a corner of walls, the rectangle will grow oppositely the wall corner way. That corner is the anchor point of that growing (scaling) progress."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2. **缩放**：想象一个不断增长的矩形，如果你将它的一个角固定在墙角，矩形会朝着与墙角相反的方向增长。那个角就是该增长（缩放）过程的锚点。"
+          }
+        }
+      }
+    },
+    "ANCHOR_POINT_SCREEN_SECTION_2_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Some Examples?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一些示例"
+          }
+        }
+      }
+    },
+    "ANCHOR_POINT_SCREEN_SECTION_3_DETAIL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There′s more to learn in the animation world…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在动画世界中还有更多要学习的内容……"
+          }
+        }
+      }
+    },
+    "ANCHOR_POINT_SCREEN_SECTION_3_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What′s Next…?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接下来…"
+          }
+        }
+      }
+    },
+    "ANIMATED_VALUE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animated Value"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "值"
+          }
+        }
+      }
+    },
+    "ANIMATION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "动画"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_1_DETAIL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In fact, animation is a sequence of pictures which shift quickly, then your brain blends them together let you feel they are moving. In professional terms, this is called persistence of vision."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "实际上，动画是一系列快速切换的图片，然后你的大脑将它们混合在一起，让你觉得它们在移动。在专业术语中，这被称为视觉暂留。"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_1_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How we see animation?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我们是如何看见动画的？"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_2_DETAIL_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animation makes characters come alive in movies, games and other literary and artistic works."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "动画使得电影、游戏和其他文学艺术作品中的角色栩栩如生。"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_2_DETAIL_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animation in education makes explaining some theories simple."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在教育中使用动画能够直观地解释一些理论。"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_2_DETAIL_3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animation makes ads eye-catching."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "动画使广告更具吸引力。"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_2_DETAIL_4" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using great animations can make user experience (UX) higher level."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用精美的动画可以提升用户体验。"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_2_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Where are animations used for?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "动画被用于什么呢？"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_3_DETAIL_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Visual Feedback**: Proper use of animations can give users a clear feedback, let them know an action is complete."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**视觉反馈**：恰当地使用动画可以为用户提供清晰的反馈，让他们知道一个操作已经完成。"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_3_DETAIL_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Fun and Delight**: Interesting animations can tell a delighting story in your app, let users put their own minds into it."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**增添趣味性**：有趣的动画可以在您的应用中讲述一个令人愉快的故事，让用户投入其中。"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_3_DETAIL_3" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**Unique Brand Identity**: If you have watched many ads made by tech companies, you can find them unique, like when you see the San Francisco font, you′ll know the ad is Apple′s, even you might haven′t watched the ad yet. Different companies have different animating method."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "**独特化品牌标识**：如果你看过许多科技公司制作的广告，你会发现它们都有自己独特的韵味。比如当你看到 SF / 苹方字体时，你会知道这是苹果公司的广告，即使你可能还没有看过这个广告。而且不同的公司有不同的动画方式。"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_3_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using great animations in your app can bring:"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在你的 app 中使用优秀的动画可以带来："
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_4_DETAIL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We usually use keyframes to make animations."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我们通常使用关键帧来制作动画。"
+          }
+        }
+      }
+    },
+    "ANIMATION_SCREEN_SECTION_4_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "So how we make it?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所以我们如何制作动画？"
+          }
+        }
+      }
+    },
+    "ANIMATION_TYPE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animation Type"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "动画类型"
+          }
+        }
+      }
+    },
+    "CIRCLE_ANIMATION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Circle Animation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "小球的动画"
+          }
+        }
+      }
+    },
+    "CONGRATULATIONS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Congratulations!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恭喜！"
+          }
+        }
+      }
+    },
+    "CONTINUE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步"
+          }
+        }
+      }
+    },
+    "CONTINUE_ANCHOR_POINT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue: Anchor Point"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续学习：锚点"
+          }
+        }
+      }
+    },
+    "CONTINUE_ANIMATION_TRIP" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue: The Endless Animation Trip"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "终点，起点。"
+          }
+        }
+      }
+    },
+    "CONTINUE_KEYFRAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue: Keyframe"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续学习：关键帧"
+          }
+        }
+      }
+    },
+    "CONTINUE_NON_LINEAR_ANIMATION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue: Linear and Non-linear Animation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续学习：非线性动画"
+          }
+        }
+      }
+    },
+    "CONTINUE_SWIFTUI_ANIMATIONS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue: Discover Different Kinds of Animation in SwiftUI"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续学习：SwiftUI 中不同的动画类型"
+          }
+        }
+      }
+    },
+    "CONTINUE_SWIFTUI_CODE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue: Make it in SwiftUI"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续学习：在 SwiftUI 中实现"
+          }
+        }
+      }
+    },
+    "CONTINUE_TIME_VALUE_CHART" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue: Time-Value Chart"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续学习：关键帧速度图表"
+          }
+        }
+      }
+    },
+    "CONTINUE_VARIOUS_CHARTS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue: Discover Various Animations′ Time-Value Chart"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续：探索不同的速度曲线"
+          }
+        }
+      }
+    },
+    "CREDITS_USED" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Credits / Material used"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "参考资料"
+          }
+        }
+      }
+    },
+    "DIFFERENT_KINDS_OF_CHART" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Different Kinds of Time-Value Chart"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不同的关键帧图表"
+          }
+        }
+      }
+    },
+    "DISCOVER" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discover"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "探索"
+          }
+        }
+      }
+    },
+    "DO_IT_YOURSELF" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Do It Yourself!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "试一试！"
+          }
+        }
+      }
+    },
+    "EASE_IN" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ease-In"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "渐入"
+          }
+        }
+      }
+    },
+    "EASE_IN_EXPLANATIONS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The object gradually increases its velocity after animation starts."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "动画在开始时速度较慢，然后逐渐加快的效果。"
+          }
+        }
+      }
+    },
+    "EASE_IN_OUT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ease-In-Out"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "渐入渐出"
+          }
+        }
+      }
+    },
+    "EASE_IN_OUT_EXPLANATIONS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The combination of ease-in and ease-out animation."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "渐入和渐出的组合。"
+          }
+        }
+      }
+    },
+    "EASE_OUT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ease-Out"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "渐出"
+          }
+        }
+      }
+    },
+    "EASE_OUT_EXPLANATIONS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The object gradually decreases its velocity before animation ends."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "动画在开始时速度较快，然后逐渐减速的效果。"
+          }
+        }
+      }
+    },
+    "ENDING_SCREEN_SECTION_1_DETAIL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You have finished the introduction to animation! You can now apply the knowledge to your keynotes, apps, web designs and videos!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你已经完成了动画介绍！现在可以将这些知识应用到你的演示文稿、应用程序、网页设计和视频中！"
+          }
+        }
+      }
+    },
+    "ENDING_SCREEN_SECTION_1_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not the End…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "动画之程还远不到终点"
+          }
+        }
+      }
+    },
+    "ENDING_SCREEN_SECTION_2_DETAIL_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can now open creative apps, like Motion by Apple, try adding some keyframes to a layer, adjusting keyframe′s velocity factor. As you watch and make more animations, you′ll start feeling animation′s feedback, smoothness, delay and emotion."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你现在可以打开像 Apple Motion 这样的 app，尝试为图层添加一些关键帧，调整关键帧的速度因子。随着你观察和制作更多的动画，你将开始感受到动画的反馈、流畅度、延迟和情感。"
+          }
+        }
+      }
+    },
+    "ENDING_SCREEN_SECTION_2_DETAIL_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you′re planning to use SwiftUI for your app and want to stay up-to-date with the latest APIs from Apple, it′s essential to use the Apple Developer app to watch developer sessions and follow WWDC updates."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "如果你计划在应用程序中使用 SwiftUI，并希望了解来自苹果的最新 API，那么使用苹果开发者应用程序观看开发者会议并关注 WWDC 更新就是至关重要的。"
+          }
+        }
+      }
+    },
+    "ENDING_SCREEN_SECTION_2_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "There′s more to discover!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "还有更多可以探索！"
+          }
+        }
+      }
+    },
+    "ENDING_SCREEN_SECTION_3_DETAIL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thanks for discovering animations with me!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "感谢和我一起探索动画！"
+          }
+        }
+      }
+    },
+    "ENDING_SCREEN_SECTION_3_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "And lastly…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最后…"
+          }
+        }
+      }
+    },
+    "EXPLORE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explore"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "探索"
+          }
+        }
+      }
+    },
+    "EXPLORE_MORE_LINKS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explore More"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "相关链接"
+          }
+        }
+      }
+    },
+    "FIRST_KEYFRAME_VELOCITY" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First Keyframe Velocity"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关键帧 1 速度"
+          }
+        }
+      }
+    },
+    "FROM_WIKIPEDIA" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "From Wikipedia"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来自 维基百科"
+          }
+        }
+      }
+    },
+    "HIDE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hide"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐藏"
+          }
+        }
+      }
+    },
+    "KEYFRAME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keyframe"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关键帧"
+          }
+        }
+      }
+    },
+    "KEYFRAME_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keyframe 1"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关键帧 1"
+          }
+        }
+      }
+    },
+    "KEYFRAME_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keyframe 2"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关键帧 2"
+          }
+        }
+      }
+    },
+    "KEYFRAME_SCREEN_SECTION_1_DETAIL_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animation is almost about transition between different objects, or different phases on one object. Keyframes record the “key moment” of one object. Once you have put two or more keyframes on one thing, computer will automatically calculate the value on each frame between two keyframes."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "动画几乎是关于不同对象之间的过渡，或者一个对象上的不同阶段。关键帧记录了一个对象的“关键时刻”。一旦您在一个物体上放置了两个或更多关键帧，计算机将自动计算两个关键帧之间每一帧的值。"
+          }
+        }
+      }
+    },
+    "KEYFRAME_SCREEN_SECTION_1_DETAIL_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The ways computer calculate the value can be different. Maybe it′s fast near the start, and slow near the end; or opposite... This is where “smooth” be made."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "计算机计算值的方式可以不同。也许在开始时速度很快，接近结束时速度变慢；或者相反……这就是“平滑”产生的地方。"
+          }
+        }
+      }
+    },
+    "KEYFRAME_SCREEN_SECTION_1_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What is keyframe?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "什么是关键帧？"
+          }
+        }
+      }
+    },
+    "KEYFRAME_SCREEN_SECTION_2_DETAIL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We need to learn about velocity, linear animations and ease-in, ease-out, ease-in-out animations."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我们需要学习速度、线性动画以及渐入、渐出和渐入渐出动画。"
+          }
+        }
+      }
+    },
+    "KEYFRAME_SCREEN_SECTION_2_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How to make it smooth?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "如何变得丝滑？"
+          }
+        }
+      }
+    },
+    "KEYFRAME_VELOCITY_SCREEN_DETAIL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Look at the Time-Value Chart above these text, this chart shows the relationship between time and animated value (this might be position, scale, opacity etc). The horizontal axis represents time, while the vertical axis represents the animated value."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请看上面文字上方的时间-值图表，该图表显示了时间和动画值（可能是位置、缩放、不透明度等）之间的关系。水平轴表示时间，垂直轴表示动画值。"
+          }
+        }
+      }
+    },
+    "KEYFRAME_VELOCITY_SCREEN_FOOTNOTE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "But it′s not \\\"smooth\\\"…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "但它还不够「丝滑」"
+          }
+        }
+      }
+    },
+    "KEYFRAME_VELOCITY_SCREEN_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time-Value Chart"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间 - 值图表"
+          }
+        }
+      }
+    },
+    "LAB" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lab"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "实验室"
+          }
+        }
+      }
+    },
+    "LAST_KEYFRAME_VELOCITY" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last Keyframe Velocity"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关键帧 2 速度"
+          }
+        }
+      }
+    },
+    "LEARN" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learn"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "学习"
+          }
+        }
+      }
+    },
+    "LINEAR" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linear"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "线性"
+          }
+        }
+      }
+    },
+    "LINEAR_ANIMATION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linear Animation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "线性动画"
+          }
+        }
+      }
+    },
+    "LINEAR_ANIMATION_DETAIL_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Linear animation is the animation where object moves at a constant speed."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "线性动画是指物体以恒定速度移动的动画。"
+          }
+        }
+      }
+    },
+    "LINEAR_ANIMATION_DETAIL_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the time-value chart, you can see the velocity (tangent, steepness) does not change with time."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在时间-值图表中，您可以看到速度（切线、陡峭度）随时间不变。"
+          }
+        }
+      }
+    },
+    "NEXT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一个"
+          }
+        }
+      }
+    },
+    "NON_LINEAR_ANIMATION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non-linear Animation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "非线性动画"
+          }
+        }
+      }
+    },
+    "NON_LINEAR_ANIMATION_DETAIL_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non-linear animation is the animation where object moves at a dynamic speed, we can adjust the Bezier controller of keyframe velocity, to adjust the animation."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "非线性动画是指物体以动态速度移动的动画，我们可以调整关键帧速度的贝塞尔控制器来调整动画。"
+          }
+        }
+      }
+    },
+    "NON_LINEAR_ANIMATION_DETAIL_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the time-value chart, you can see the velocity (tangent, steepness) changes with time."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在时间-值图表中，您可以看到速度（切线、陡峭度）随时间变化。"
+          }
+        }
+      }
+    },
+    "NON_LINEAR_ANIMATION_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What do the time–value mappings of different kinds of animations look like?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不同类型的动画的时间-值映射是什么样的呢？"
+          }
+        }
+      }
+    },
+    "PIN_THE_ANCHOR_POINT" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pin the Anchor Point"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "固定锚点"
+          }
+        }
+      }
+    },
+    "PREVIOUS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Previous"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上一个"
+          }
+        }
+      }
+    },
+    "REVIEW" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Review"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "复习"
+          }
+        }
+      }
+    },
+    "ROTATION_DEGREES" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rotation Degrees"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旋转角度"
+          }
+        }
+      }
+    },
+    "SCALE_FACTOR" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scale Factor"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "缩放倍数"
+          }
+        }
+      }
+    },
+    "SHOW" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示"
+          }
+        }
+      }
+    },
+    "SHOW_ANIMATION_DETAIL_INSIDE_OS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Animation Detail Inside OS"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示操作系统中的动画细节"
+          }
+        }
+      }
+    },
+    "START_LEARNING" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start Learning"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始学习！"
+          }
+        }
+      }
+    },
+    "SWIFTUI_ANIMATIONS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI Animations"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI 动画"
+          }
+        }
+      }
+    },
+    "SWIFTUI_ANIMATIONS_SCREEN_SECTION_1_DETAIL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "These are SwiftUI′s built-in animations, you can also create your own animation in next chapter."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这些是 SwiftUI 内置的动画，你也可以在下一章节中创建自己的动画。"
+          }
+        }
+      }
+    },
+    "SWIFTUI_ANIMATIONS_SCREEN_SECTION_1_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discover SwiftUI Animations"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "探索 SwiftUI 动画"
+          }
+        }
+      }
+    },
+    "SWIFTUI_ANIMATIONS_SCREEN_SECTION_2_DETAIL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ease-In, Ease-Out, Ease-In-Out, Bouncy, Spring..."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "渐入、渐出、渐入渐出、弹性…"
+          }
+        }
+      }
+    },
+    "SWIFTUI_ANIMATIONS_SCREEN_SECTION_2_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "How are they created?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "怎么做？"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI Code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SwiftUI 代码"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_ADD_A_VARIABLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add a Variable"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加变量"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_ADD_BUTTON" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Button or Something That Can Change the Value"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加按钮（或者任何可以更改变量数值的控件）"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_ADD_MODIFIER" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add .animation() Modifier"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加修改器"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_ANIMATION_EXPLANATIONS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In SwiftUI, an animation consists of two parts, Animatable and Animation."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 SwiftUI 中，动画由两部分组成，即 **Animatable** 和 **Animation**。"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_ANIMATION_EXPLANATIONS_ANIMATABLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is an **Animatable** attribute."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这是 **Animatable**（可动画的）属性。"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_ANIMATION_EXPLANATIONS_ANIMATION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This is **Animation**."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "这是 **Animation**（动画）。"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_CHOOSE_ANIMATION" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose Animation"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择用什么样的动画"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_MAKE_PROPERTY_RELATED_WITH_VARIABLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Make Property You Want to Animate Related with Variable"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将属性与变量关联起来"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_SCREEN_SECTION_1_DETAIL" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We already learned several kinds of animations, so how to add them into your app?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我们已经学习了几种动画，那么如何将它们添加到你的应用程序中呢？"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_SCREEN_SECTION_1_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discover SwiftUI Codes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "探索 SwiftUI 代码"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_SECTION_2_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anchor Point"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "锚点"
+          }
+        }
+      }
+    },
+    "SWIFTUI_CODE_SHOW_DETAILS" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show SwiftUI Details"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示 SwiftUI 代码细节"
+          }
+        }
+      }
+    },
+    "TIME" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间"
+          }
+        }
+      }
+    },
+    "TIME_VALUE_CHART" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time-Value Chart"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间 - 值图表"
+          }
+        }
+      }
+    },
+    "VARIOUS_CHARTS_SCREEN_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What′s the difference between various kinds of animation?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不同动画的区别有哪些？"
+          }
+        }
+      }
+    },
+    "WELCOME_TO_THE_WORLD_OF_ANIMATION_DETAIL_1" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maybe you′re a developer developing a new app, or a YouTuber wondering how to make video look smoother, or a student preparing a presentation, but don′t know how to make your transitions better."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你或许是一位正在开发新 app 的开发者，或许是一位正在探索动画的视频博主，又或者是一位正在折腾演讲 Keynote 的学生，但不知道如何让动画更流畅丝滑。"
+          }
+        }
+      }
+    },
+    "WELCOME_TO_THE_WORLD_OF_ANIMATION_DETAIL_2" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Just enter the world of animation, start making everything smoother!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "欢迎探索该教程，让你的动画更丝滑！"
+          }
+        }
+      }
+    },
+    "WELCOME_TO_THE_WORLD_OF_ANIMATION_TITLE" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome to the world of animation!"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "欢迎探索动画世界！"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

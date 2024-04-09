@@ -10,13 +10,13 @@ struct ContentView: View {
                             NavigationLink {
                                 LearnView()
                             } label: {
-                                Label("Learn", systemImage: "pencil")
+                                Label("LEARN", systemImage: "pencil")
                             }
                             
                             NavigationLink {
                                 ExploreView()
                             } label: {
-                                Label("Explore", systemImage: "globe")
+                                Label("EXPLORE", systemImage: "globe")
                             }
                         }
                     }
@@ -29,12 +29,12 @@ struct ContentView: View {
                 TabView {
                     LearnView()
                         .tabItem {
-                            Label("Learn", systemImage: "pencil")
+                            Label("LEARN", systemImage: "pencil")
                         }
                     
                     ExploreView()
                         .tabItem {
-                            Label("Explore", systemImage: "globe")
+                            Label("EXPLORE", systemImage: "globe")
                         }
                 }
             }

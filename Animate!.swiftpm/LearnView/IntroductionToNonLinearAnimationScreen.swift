@@ -20,7 +20,7 @@ struct IntroductionToNonLinearAnimationScreen: View {
                         .padding(.horizontal, 30)
                         .padding(.vertical, 10)
                     
-                    Text("Time-Value Chart")
+                    Text("TIME_VALUE_CHART")
                         .font(.callout)
                         .foregroundStyle(.secondary)
                 }
@@ -28,27 +28,27 @@ struct IntroductionToNonLinearAnimationScreen: View {
                 
                 NavigationStack {
                     List {
-                        Section("Learn") {
+                        Section("LEARN") {
                             GeometryReader { geoSize in
                                 let size = geoSize.size
                                 ScrollView(.horizontal) {
                                     HStack(alignment: .top, spacing: 0) {
                                         VStack(alignment: .leading, spacing: 7) {
-                                            Text("Linear Animation")
+                                            Text("LINEAR_ANIMATION")
                                                 .font(.title)
                                                 .bold()
                                             
                                             Divider()
                                             
-                                            Text("Linear animation is the animation where object moves at a constant speed.")
+                                            Text("LINEAR_ANIMATION_DETAIL_1")
                                             
                                             Divider()
                                             
-                                            Text("In the time-value chart, you can see the velocity (tangent, steepness) does not change with time.")
+                                            Text("LINEAR_ANIMATION_DETAIL_2")
                                             
                                             Spacer()
                                             
-                                            Button("Next") {
+                                            Button("NEXT") {
                                                 scrollPosition = 2
                                             }
                                         }
@@ -56,21 +56,21 @@ struct IntroductionToNonLinearAnimationScreen: View {
                                         .frame(width: size.width)
                                         
                                         VStack(alignment: .leading, spacing: 7) {
-                                            Text("Non-linear Animation")
+                                            Text("NON_LINEAR_ANIMATION")
                                                 .font(.title)
                                                 .bold()
                                             
                                             Divider()
                                             
-                                            Text("Non-linear animation is the animation where object moves at a dynamic speed, we can adjust the Bezier controller of keyframe velocity, to adjust the animation.")
+                                            Text("NON_LINEAR_ANIMATION_DETAIL_1")
                                             
                                             Divider()
                                             
-                                            Text("In the time-value chart, you can see the velocity (tangent, steepness) changes with time.")
+                                            Text("NON_LINEAR_ANIMATION_DETAIL_2")
                                             
                                             Spacer()
                                             
-                                            Button("Previous") {
+                                            Button("PREVIOUS") {
                                                 scrollPosition = 1
                                             }
                                         }
@@ -79,7 +79,6 @@ struct IntroductionToNonLinearAnimationScreen: View {
                                     }
                                     .scrollTargetLayout()
                                 }
-                                
                                 .scrollIndicators(.visible)
                                 .scrollPosition(id: $scrollPosition)
                                 .scrollTargetBehavior(.paging)
@@ -98,10 +97,10 @@ struct IntroductionToNonLinearAnimationScreen: View {
                             .frame(height: 320)
                         }
                         
-                        Section("Do it yourself!") {
+                        Section("DO_IT_YOURSELF") {
                             Group {
                                 VStack {
-                                    Text("First Keyframe Velocity")
+                                    Text("FIRST_KEYFRAME_VELOCITY")
                                     
                                     HStack {
                                         Text("\(firstKeyframeVelocityFactor.formatted())")
@@ -114,7 +113,7 @@ struct IntroductionToNonLinearAnimationScreen: View {
                                 }
                                 
                                 VStack {
-                                    Text("Last Keyframe Velocity")
+                                    Text("LAST_KEYFRAME_VELOCITY")
                                     
                                     HStack {
                                         Slider(value: $lastKeyframeVelocityFactor, in: 0...100, step: 10)
@@ -132,9 +131,9 @@ struct IntroductionToNonLinearAnimationScreen: View {
                         }
                         
                         if showLink {
-                            Section("Continue") {
+                            Section("CONTINUE") {
                                 VStack(alignment: .leading, spacing: 7) {
-                                    Text("What do the time–value mappings of different kinds of animations look like?")
+                                    Text("NON_LINEAR_ANIMATION_TITLE")
                                         .font(.title)
                                         .bold()
                                 }
@@ -142,12 +141,12 @@ struct IntroductionToNonLinearAnimationScreen: View {
                                 NavigationLink {
                                     DiscoverAnimationsTimeValueChartScreen()
                                 } label: {
-                                    Label("Continue: Discover Various Animations′ Time-Value Chart", systemImage: "arrow.right")
+                                    Label("CONTINUE_VARIOUS_CHARTS", systemImage: "arrow.right")
                                 }
                             }
                         }
                     }
-                    .navigationTitle("Non-Linear Animations")
+                    .navigationTitle("NON_LINEAR_ANIMATION")
                     .navigationBarTitleDisplayMode(.inline)
                 }
             }

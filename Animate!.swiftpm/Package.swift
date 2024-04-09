@@ -18,7 +18,7 @@ let package = Package(
             targets: ["AppModule"],
             bundleIdentifier: "com.markview.animate",
             teamIdentifier: "TMC46L5FQM",
-            displayVersion: "1.0",
+            displayVersion: "1.1",
             bundleVersion: "1",
             appIcon: .asset("AppIcon"),
             accentColor: .presetColor(.red),

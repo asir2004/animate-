@@ -14,7 +14,7 @@ struct ExploreView: View {
             GeometryReader { geoSize in
                 if geoSize.size.width < 550 {
                     List {
-                        Section("Credits / Material used") {
+                        Section("CREDITS_USED") {
                             VStack(alignment: .leading, spacing: 7) {
                                 Text("Wikipedia content used in animation principles′ detail page.")
                                 
@@ -24,29 +24,29 @@ struct ExploreView: View {
                             }
                         }
                         
-                        Section("Review") {
+                        Section("REVIEW") {
                             NavigationLink {
                                 IntroductionToNonLinearAnimationScreen(showLink: false)
                             } label: {
-                                Label("Time-Value Chart", systemImage: "point.topleft.down.to.point.bottomright.curvepath.fill")
+                                Label("TIME_VALUE_CHART", systemImage: "point.topleft.down.to.point.bottomright.curvepath.fill")
                             }
                             
                             NavigationLink {
                                 DiscoverSwiftUIAnimationsScreen(showLink: false)
                             } label: {
-                                Label("SwiftUI Animations", systemImage: "circlebadge.2")
+                                Label("SWIFTUI_ANIMATIONS", systemImage: "circlebadge.2")
                             }
                             
                             NavigationLink {
                                 DiscoverSwiftUICodeScreen(showLink: false)
                             } label: {
-                                Label("SwiftUI Code", systemImage: "chevron.left.forwardslash.chevron.right")
+                                Label("SWIFTUI_CODE", systemImage: "chevron.left.forwardslash.chevron.right")
                             }
                             
                             NavigationLink {
                                 IntroductionToAnchorPointScreen(showLink: false)
                             } label: {
-                                Label("Anchor Point", systemImage: "rectangle")
+                                Label("ANCHOR_POINT", systemImage: "rectangle")
                             }
                         }
                         
@@ -70,7 +70,7 @@ struct ExploreView: View {
                         }, header: {
                             Text("12 Basic Animation Principles")
                         }, footer: {
-                            Text("From Wikipedia")
+                            Text("FROM_WIKIPEDIA")
                                 .foregroundStyle(.secondary)
                                 .font(.footnote)
                         })
@@ -81,7 +81,7 @@ struct ExploreView: View {
                                     showAboutMe.toggle()
                                 }
                             } label: {
-                                Text(showAboutMe ? "Hide" : "Show")
+                                Text(showAboutMe ? "HIDE" : "SHOW")
                             }
                             .font(.caption)
                             .frame(maxWidth: .infinity, alignment: .trailing)
@@ -117,7 +117,7 @@ struct ExploreView: View {
                 } else {
                         HStack {
                             List {
-                                Section("Credits / Material used") {
+                                Section("CREDITS_USED") {
                                     VStack(alignment: .leading, spacing: 7) {
                                         Text("Wikipedia content used in animation principles′ detail page.")
                                         
@@ -127,29 +127,29 @@ struct ExploreView: View {
                                     }
                                 }
                                 
-                                Section("Review") {
+                                Section("REVIEW") {
                                     NavigationLink {
                                         IntroductionToNonLinearAnimationScreen(showLink: false)
                                     } label: {
-                                        Label("Time-Value Chart", systemImage: "point.topleft.down.to.point.bottomright.curvepath.fill")
+                                        Label("TIME_VALUE_CHART", systemImage: "point.topleft.down.to.point.bottomright.curvepath.fill")
                                     }
                                     
                                     NavigationLink {
                                         DiscoverSwiftUIAnimationsScreen(showLink: false)
                                     } label: {
-                                        Label("SwiftUI Animations", systemImage: "circlebadge.2")
+                                        Label("SWIFTUI_ANIMATIONS", systemImage: "circlebadge.2")
                                     }
                                     
                                     NavigationLink {
                                         DiscoverSwiftUICodeScreen(showLink: false)
                                     } label: {
-                                        Label("SwiftUI Code", systemImage: "chevron.left.forwardslash.chevron.right")
+                                        Label("SWIFTUI_CODE", systemImage: "chevron.left.forwardslash.chevron.right")
                                     }
                                     
                                     NavigationLink {
                                         IntroductionToAnchorPointScreen(showLink: false)
                                     } label: {
-                                        Label("Anchor Point", systemImage: "rectangle")
+                                        Label("ANCHOR_POINT", systemImage: "rectangle")
                                     }
                                 }
                                 
@@ -159,7 +159,7 @@ struct ExploreView: View {
                                             showAboutMe.toggle()
                                         }
                                     } label: {
-                                        Text(showAboutMe ? "Hide" : "Show")
+                                        Text(showAboutMe ? "HIDE" : "SHOW")
                                     }
                                     .font(.caption)
                                     .frame(maxWidth: .infinity, alignment: .trailing)
@@ -209,7 +209,7 @@ struct ExploreView: View {
                                         }
                                         .padding(10)
                                         
-                                        Text("From Wikipedia")
+                                        Text("FROM_WIKIPEDIA")
                                             .foregroundStyle(.secondary)
                                             .font(.footnote)
                                     }
@@ -218,7 +218,7 @@ struct ExploreView: View {
                         }
                     }
             }
-            .navigationTitle("Explore")
+            .navigationTitle("EXPLORE")
         }
     }
     

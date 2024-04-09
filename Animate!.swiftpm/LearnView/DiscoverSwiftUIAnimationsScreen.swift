@@ -55,17 +55,17 @@ struct DiscoverSwiftUIAnimationsScreen: View {
                 }
                 
                 List {
-                    Section("Discover") {
+                    Section("DISCOVER") {
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("Discover SwiftUI Animations")
+                            Text("SWIFTUI_ANIMATIONS_SCREEN_SECTION_1_TITLE")
                                 .font(.title)
                                 .bold()
                             
-                            Text("These are SwiftUI′s built-in animations, you can also create your own animation in next chapter.")
+                            Text("SWIFTUI_ANIMATIONS_SCREEN_SECTION_1_DETAIL")
                         }
                         
                         VStack(alignment: .leading) {
-                            Label("Animation Type", systemImage: "switch.2")
+                            Label("ANIMATION_TYPE", systemImage: "switch.2")
                             
                             Picker(selection: $circleAnimation) {
                                 Text("None")
@@ -101,14 +101,14 @@ struct DiscoverSwiftUIAnimationsScreen: View {
                                 Text("Interpolating Spring")
                                     .tag(Animation.interpolatingSpring)
                             } label: {
-                                Label("Circle Animation", systemImage: "switch.2")
+                                Label("CIRCLE_ANIMATION", systemImage: "switch.2")
                             }
                             .pickerStyle(.wheel)
                             .frame(height: 150)
                         }
                         
                         Toggle(isOn: $showCircleAnimationSubstring.animation(.easeInOut), label: {
-                            Label("Show Animation Detail Inside OS", systemImage: "chevron.left.forwardslash.chevron.right")
+                            Label("SHOW_ANIMATION_DETAIL_INSIDE_OS", systemImage: "chevron.left.forwardslash.chevron.right")
                         })
                         
                         if showCircleAnimationSubstring {
@@ -120,7 +120,7 @@ struct DiscoverSwiftUIAnimationsScreen: View {
                     if !showLink {
                         Section {
                             VStack(alignment: .leading, spacing: 7) {
-                                Text("Explore more")
+                                Text("EXPLORE_MORE_LINKS")
                                     .font(.title)
                                     .bold()
                                 
@@ -132,25 +132,25 @@ struct DiscoverSwiftUIAnimationsScreen: View {
                     }
                     
                     if showLink {
-                        Section("Continue") {
+                        Section("CONTINUE") {
                             VStack(alignment: .leading, spacing: 7) {
-                                Text("How are they created?")
+                                Text("SWIFTUI_ANIMATIONS_SCREEN_SECTION_2_TITLE")
                                     .font(.title)
                                     .bold()
                                 
-                                Text("Ease-In, Ease-Out, Ease-In-Out, Bouncy, Spring...")
+                                Text("SWIFTUI_ANIMATIONS_SCREEN_SECTION_2_DETAIL")
                             }
                             
                             NavigationLink {
                                 DiscoverSwiftUICodeScreen()
                             } label: {
-                                Label("Continue: Make it in SwiftUI", systemImage: "arrow.right")
+                                Label("CONTINUE_SWIFTUI_CODE", systemImage: "arrow.right")
                             }
                         }
                     }
                 }
             }
-            .navigationTitle("SwiftUI Animations")
+            .navigationTitle("SWIFTUI_ANIMATIONS")
             .navigationBarTitleDisplayMode(.inline)
             .onReceive(timer, perform: { _ in
                 circleAnimationProgress.toggle()

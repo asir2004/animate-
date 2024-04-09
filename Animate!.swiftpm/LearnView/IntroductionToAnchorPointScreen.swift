@@ -52,42 +52,42 @@ struct IntroductionToAnchorPointScreen: View {
                                 showAnchorPointExamples.toggle()
                             }
                         } label: {
-                            Text(showAnchorPointExamples ? "Hide" : "Show")
+                            Text(showAnchorPointExamples ? "HIDE" : "SHOW")
                         }
                         .font(.caption)
                         .frame(maxWidth: .infinity, alignment: .trailing)
                         .overlay(
-                            Text("Learn"),
+                            Text("LEARN"),
                             alignment: .leading
                         )
                     ) {
                         if showAnchorPointExamples {
                             VStack(alignment: .leading, spacing: 7) {
-                                Text("What is Anchor Point?")
+                                Text("ANCHOR_POINT_SCREEN_SECTION_1_TITLE")
                                     .font(.title)
                                     .bold()
                                 
-                                Text("In animation, anchor point is a point where animation plays. The animated property (e.g. scaling, rotation, position…) of an object is recorded on its anchor point, properties like scale and rotation change relatively to that point. Remember the material point you learned from physics class? They are almost the same in function. Try it below!")
+                                Text("ANCHOR_POINT_SCREEN_SECTION_1_DETAIL")
                             }
                         }
                         
                         if showAnchorPointExamples {
                             VStack(alignment: .leading, spacing: 7) {
-                                Text("Some Examples?")
+                                Text("ANCHOR_POINT_SCREEN_SECTION_2_TITLE")
                                     .font(.title)
                                     .bold()
                                 
-                                Text(.init("1. **Rotation**: A clock hand rotates surrounding the center of the clock."))
+                                Text(.init("ANCHOR_POINT_SCREEN_SECTION_2_DETAIL_1"))
                                 
-                                Text(.init("2. **Scaling**: Imagine a growing rectangle, if you stuck one of its corners to a corner of walls, the rectangle will grow oppositely the wall corner way. That corner is the anchor point of that growing (scaling) progress."))
+                                Text(.init("ANCHOR_POINT_SCREEN_SECTION_2_DETAIL_2"))
                             }
                         }
                     }
                     
-                    Section("Lab") {
+                    Section("LAB") {
                         VStack(alignment: .leading) {
                             HStack {
-                                Label("Scale Factor", systemImage: "arrow.up.left.and.arrow.down.right")
+                                Label("SCALE_FACTOR", systemImage: "arrow.up.left.and.arrow.down.right")
                                 
                                 Spacer()
                                 
@@ -107,7 +107,7 @@ struct IntroductionToAnchorPointScreen: View {
                         
                         VStack(alignment: .leading) {
                             HStack {
-                                Label("Rotation Degrees", systemImage: "arrow.clockwise")
+                                Label("ROTATION_DEGREES", systemImage: "arrow.clockwise")
                                 
                                 Spacer()
                                 
@@ -126,11 +126,11 @@ struct IntroductionToAnchorPointScreen: View {
                         }
                         
                         HStack {
-                            Label("Anchor Point", systemImage: "rectangle.dashed")
+                            Label("ANCHOR_POINT", systemImage: "rectangle.dashed")
                             
                             Spacer()
                             
-                            Picker("Anchor Point", selection: $anchorPoint, content: {
+                            Picker("ANCHOR_POINT", selection: $anchorPoint, content: {
                                 Text("Center")
                                     .tag(UnitPoint.center)
                                 
@@ -164,7 +164,7 @@ struct IntroductionToAnchorPointScreen: View {
                         }
                         
                         Toggle(isOn: $absolutePosition, label: {
-                            Label("Pin the Anchor Point", systemImage: absolutePosition ? "pin.fill" : "pin")
+                            Label("PIN_THE_ANCHOR_POINT", systemImage: absolutePosition ? "pin.fill" : "pin")
                                 .symbolEffect(.bounce, value: absolutePosition)
                         })
                     }
@@ -172,23 +172,23 @@ struct IntroductionToAnchorPointScreen: View {
                     if showLink {
                         Section {
                             VStack(alignment: .leading, spacing: 7) {
-                                Text("What′s Next…?")
+                                Text("ANCHOR_POINT_SCREEN_SECTION_3_TITLE")
                                     .font(.title)
                                     .bold()
                                 
-                                Text("There′s more to learn in the animation world…")
+                                Text("ANCHOR_POINT_SCREEN_SECTION_3_DETAIL")
                             }
                             
                             NavigationLink {
                                 EndingScreen()
                             } label: {
-                                Label("Continue: The Endless Animation Trip", systemImage: "flame")
+                                Label("CONTINUE_ANIMATION_TRIP", systemImage: "flame")
                             }
                         }
                     }
                 }
             }
-            .navigationTitle("Anchor Point")
+            .navigationTitle("ANCHOR_POINT")
             .navigationBarTitleDisplayMode(.inline)
         }
     }

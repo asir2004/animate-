@@ -12,7 +12,7 @@ struct LearnView: View {
                                 AnimationIntroductionContentView()
                                 
                                 NavigationLink(destination: IntroductionToAnimationScreen()) {
-                                    Label("Start Learning", systemImage: "arrow.right")
+                                    Label("START_LEARNING", systemImage: "arrow.right")
                                 }
                             }
                         }
@@ -29,7 +29,7 @@ struct LearnView: View {
                             }
                         }
                     }
-                    .navigationTitle("Learn")
+                    .navigationTitle("LEARN")
                 } else {
                     List {
                         Section {
@@ -47,11 +47,11 @@ struct LearnView: View {
                             AnimationIntroductionContentView()
                             
                             NavigationLink(destination: IntroductionToAnimationScreen()) {
-                                Label("Start Learning", systemImage: "arrow.right")
+                                Label("START_LEARNING", systemImage: "arrow.right")
                             }
                         }
                     }
-                    .navigationTitle("Learn")
+                    .navigationTitle("LEARN")
                 }
             }
         }
@@ -189,15 +189,15 @@ struct AnimationIntroductionAnimationView: View {
 struct AnimationIntroductionContentView: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Welcome to the world of animation!")
+            Text("WELCOME_TO_THE_WORLD_OF_ANIMATION_TITLE")
                 .font(.title)
                 .bold()
                 .padding(.bottom, 5)
             
-            Text("Maybe you′re a developer developing a new app, or a YouTuber wondering how to make video look smoother, or a student preparing a presentation, but don′t know how to make your transitions better.")
+            Text("WELCOME_TO_THE_WORLD_OF_ANIMATION_DETAIL_1")
                 .padding(.bottom, 5)
             
-            Text("Just enter the world of animation, start making everything smoother!")
+            Text("WELCOME_TO_THE_WORLD_OF_ANIMATION_DETAIL_2")
         }
     }
 }

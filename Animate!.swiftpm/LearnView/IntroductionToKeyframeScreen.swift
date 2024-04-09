@@ -22,33 +22,33 @@ struct IntroductionToKeyframeScreen: View {
                     List {
                         Section("Learn") {
                             VStack(alignment: .leading, spacing: 7) {
-                                Text("What is keyframe?")
+                                Text("KEYFRAME_SCREEN_SECTION_1_TITLE")
                                     .font(.title)
                                     .bold()
                                 
-                                Text("Animation is almost about transition between different objects, or different phases on one object. Keyframes record the “key moment” of one object. Once you have put two or more keyframes on one thing, computer will automatically calculate the value on each frame between two keyframes.")
+                                Text("KEYFRAME_SCREEN_SECTION_1_DETAIL_1")
                                 
-                                Text("The ways computer calculate the value can be different. Maybe it′s fast near the start, and slow near the end; or opposite... This is where “smooth” be made.")
+                                Text("KEYFRAME_SCREEN_SECTION_1_DETAIL_2")
                             }
                         }
                         
                         Section {
                             VStack(alignment: .leading, spacing: 7) {
-                                Text("How to make it smooth?")
+                                Text("KEYFRAME_SCREEN_SECTION_2_TITLE")
                                     .font(.title)
                                     .bold()
                                 
-                                Text("We need to learn about velocity, linear animations and ease-in, ease-out, ease-in-out animations.")
+                                Text("KEYFRAME_SCREEN_SECTION_2_DETAIL")
                             }
                             
                             NavigationLink {
                                 IntroductionToTimeValueChartScreen()
                             } label: {
-                                Label("Continue: Time-Value Chart", systemImage: "arrow.right")
+                                Label("CONTINUE_TIME_VALUE_CHART", systemImage: "arrow.right")
                             }
                         }
                     }
-                    .navigationTitle("Keyframe")
+                    .navigationTitle("KEYFRAME")
                     .navigationBarTitleDisplayMode(.inline)
                 }
             }
@@ -71,7 +71,7 @@ struct IntroductionToKeyframeExplanationView: View {
                         .foregroundStyle(colorScheme == .dark ? .black : .white)
                 }
                 
-                Text("Keyframe 1")
+                Text("KEYFRAME_1")
                     .font(.system(size: 10))
                     .monospaced()
             }
@@ -107,7 +107,7 @@ struct IntroductionToKeyframeExplanationView: View {
                         .foregroundStyle(colorScheme == .dark ? .black : .white)
                 }
                 
-                Text("Keyframe 2")
+                Text("KEYFRAME_2")
                     .font(.system(size: 10))
                     .monospaced()
             }

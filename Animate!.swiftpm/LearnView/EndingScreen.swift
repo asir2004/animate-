@@ -23,29 +23,29 @@ struct EndingScreen: View {
                 List {
                     Section {
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("Not the End…")
+                            Text("ENDING_SCREEN_SECTION_1_TITLE")
                                 .font(.title)
                                 .bold()
                             
-                            Text("You have finished the introduction to animation! You can now apply the knowledge to your keynotes, apps, web designs and videos!")
+                            Text("ENDING_SCREEN_SECTION_1_DETAIL")
                         }
                         
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("There′s more to discover!")
+                            Text("ENDING_SCREEN_SECTION_2_TITLE")
                                 .font(.title)
                                 .bold()
                             
-                            Text("You can now open creative apps, like Motion by Apple, try adding some keyframes to a layer, adjusting keyframe′s velocity factor. As you watch and make more animations, you′ll start feeling animation′s feedback, smoothness, delay and emotion.")
+                            Text("ENDING_SCREEN_SECTION_2_DETAIL_1")
                             
-                            Text("If you′re planning to use SwiftUI for your app and want to stay up-to-date with the latest APIs from Apple, it′s essential to use the Apple Developer app to watch developer sessions and follow WWDC updates.")
+                            Text("ENDING_SCREEN_SECTION_2_DETAIL_2")
                         }
                     }
                     
                     Section {
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("And lastly…")
+                            Text("ENDING_SCREEN_SECTION_3_TITLE")
                             
-                            Text("Thanks for discovering animations with me!")
+                            Text("ENDING_SCREEN_SECTION_3_DETAIL")
                                 .font(.title)
                                 .bold()
                         }
@@ -53,7 +53,7 @@ struct EndingScreen: View {
                     
                     Section {
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("Explore more")
+                            Text("EXPLORE_MORE_LINKS")
                                 .font(.title)
                                 .bold()
                             
@@ -80,7 +80,7 @@ struct EndingScreen: View {
                     }
                 }
             }
-            .navigationTitle("Congratulations!")
+            .navigationTitle("CONGRATULATIONS")
             .navigationBarTitleDisplayMode(.inline)
         }
     }

@@ -20,7 +20,7 @@ struct DiscoverSwiftUICodeScreen: View {
                         VStack(alignment: .leading) {
                             Group {
                                 if showAnimatableDetails {
-                                    Text("In SwiftUI, an animation consists of two parts, Animatable and Animation.")
+                                    Text("SWIFTUI_CODE_ANIMATION_EXPLANATIONS")
                                         .padding(.bottom, 20)
                                 }
                                 
@@ -62,7 +62,7 @@ struct DiscoverSwiftUICodeScreen: View {
                                             Text("      .offset(x: CGFloat(xOffset))")
                                                 .monospaced()
                                             
-                                            Text(.init("This is an **Animatable** attribute."))
+                                            Text(.init("SWIFTUI_CODE_ANIMATION_EXPLANATIONS_ANIMATABLE"))
                                                 .foregroundColor(.red)
                                         }
                                     } else {
@@ -82,7 +82,7 @@ struct DiscoverSwiftUICodeScreen: View {
                                                 .monospaced()
                                             
                                             if showAnimatableDetails {
-                                                Text(.init("This is **Animation**."))
+                                                Text(.init("SWIFTUI_CODE_ANIMATION_EXPLANATIONS_ANIMATION"))
                                                     .foregroundColor(.red)
                                             }
                                         }
@@ -151,36 +151,36 @@ struct DiscoverSwiftUICodeScreen: View {
                 .frame(minHeight: 300, idealHeight: showAnimatableDetails ? 600 : 400, maxHeight: 700)
                 
                 List {
-                    Section("Explore") {
+                    Section("EXPLORE") {
                         VStack(alignment: .leading, spacing: 7) {
-                            Text("Discover SwiftUI Codes")
+                            Text("SWIFTUI_CODE_SCREEN_SECTION_1_TITLE")
                                 .font(.title)
                                 .bold()
                             
-                            Text("We already learned several kinds of animations, so how to add them into your app?")
+                            Text("SWIFTUI_CODE_SCREEN_SECTION_1_DETAIL")
                         }
                         
-                        Toggle("Add a Variable", systemImage: valueIsAdded ? "checkmark" : "circle.dotted", isOn: $valueIsAdded.animation())
+                        Toggle("SWIFTUI_CODE_ADD_A_VARIABLE", systemImage: valueIsAdded ? "checkmark" : "circle.dotted", isOn: $valueIsAdded.animation())
                             .symbolEffect(.bounce, value: valueIsAdded)
                             .foregroundStyle(valueIsAdded ? .primary : .secondary)
                         
-                        Toggle("Make Property You Want to Animate Related with Variable", systemImage: relationWithValueIsAdded ? "checkmark" : "circle.dotted", isOn: $relationWithValueIsAdded.animation())
+                        Toggle("SWIFTUI_CODE_MAKE_PROPERTY_RELATED_WITH_VARIABLE", systemImage: relationWithValueIsAdded ? "checkmark" : "circle.dotted", isOn: $relationWithValueIsAdded.animation())
                             .symbolEffect(.bounce, value: relationWithValueIsAdded)
                             .foregroundStyle(relationWithValueIsAdded ? .primary : .secondary)
                         
-                        Toggle("Add .animation() Modifier", systemImage: animationModifierIsAdded ? "checkmark" : "circle.dotted", isOn: $animationModifierIsAdded.animation())
+                        Toggle("SWIFTUI_CODE_ADD_MODIFIER", systemImage: animationModifierIsAdded ? "checkmark" : "circle.dotted", isOn: $animationModifierIsAdded.animation())
                             .symbolEffect(.bounce, value: animationModifierIsAdded)
                             .foregroundStyle(animationModifierIsAdded ? .primary : .secondary)
                         
-                        Toggle("Choose Animation", systemImage: animationModifierDetailIsAdded ? "checkmark" : "circle.dotted", isOn: $animationModifierDetailIsAdded.animation())
+                        Toggle("SWIFTUI_CODE_CHOOSE_ANIMATION", systemImage: animationModifierDetailIsAdded ? "checkmark" : "circle.dotted", isOn: $animationModifierDetailIsAdded.animation())
                             .symbolEffect(.bounce, value: animationModifierDetailIsAdded)
                             .foregroundStyle(animationModifierDetailIsAdded ? .primary : .secondary)
                         
-                        Toggle("Add Button or Something That Can Change the Value", systemImage: buttonIsAdded ? "checkmark" : "circle.dotted", isOn: $buttonIsAdded.animation())
+                        Toggle("SWIFTUI_CODE_ADD_BUTTON", systemImage: buttonIsAdded ? "checkmark" : "circle.dotted", isOn: $buttonIsAdded.animation())
                             .symbolEffect(.bounce, value: buttonIsAdded)
                             .foregroundStyle(buttonIsAdded ? .primary : .secondary)
                         
-                        Toggle("Show SwiftUI Details", systemImage: showAnimatableDetails ? "exclamationmark" : "questionmark", isOn: $showAnimatableDetails.animation())
+                        Toggle("SWIFTUI_CODE_SHOW_DETAILS", systemImage: showAnimatableDetails ? "exclamationmark" : "questionmark", isOn: $showAnimatableDetails.animation())
                             .symbolEffect(.bounce, value: buttonIsAdded)
                             .foregroundStyle(showAnimatableDetails ? .primary : .secondary)
                             .disabled(!(valueIsAdded && relationWithValueIsAdded && animationModifierIsAdded && animationModifierDetailIsAdded && buttonIsAdded))
@@ -189,7 +189,7 @@ struct DiscoverSwiftUICodeScreen: View {
                     if !showLink {
                         Section {
                             VStack(alignment: .leading, spacing: 7) {
-                                Text("Explore more")
+                                Text("EXPLORE_MORE_LINKS")
                                     .font(.title)
                                     .bold()
                                 
@@ -203,7 +203,7 @@ struct DiscoverSwiftUICodeScreen: View {
                     if showLink {
                         Section {
                             VStack(alignment: .leading, spacing: 7) {
-                                Text("Anchor Point")
+                                Text("SWIFTUI_CODE_SECTION_2_TITLE")
                                     .font(.title)
                                     .bold()
                             }
@@ -211,13 +211,13 @@ struct DiscoverSwiftUICodeScreen: View {
                             NavigationLink {
                                 IntroductionToAnchorPointScreen()
                             } label: {
-                                Label("Continue: Anchor Point", systemImage: "arrow.right")
+                                Label("CONTINUE_ANCHOR_POINT", systemImage: "arrow.right")
                             }
                         }
                     }
                 }
             }
-            .navigationTitle("SwiftUI Code")
+            .navigationTitle("SWIFTUI_CODE")
             .navigationBarTitleDisplayMode(.inline)
         }
     }
