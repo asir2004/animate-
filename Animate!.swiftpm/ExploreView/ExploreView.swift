@@ -15,39 +15,11 @@ struct ExploreView: View {
                 if geoSize.size.width < 550 {
                     List {
                         Section("CREDITS_USED") {
-                            VStack(alignment: .leading, spacing: 7) {
-                                Text("Wikipedia content used in animation principles′ detail page.")
-                                
-                                Link(destination: URL(string: "https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation")!) {
-                                    Label("Wikipedia - Twelve basic principles of animation", systemImage: "link")
-                                }
-                            }
+                            CreditsUsedListSection()
                         }
                         
                         Section("REVIEW") {
-                            NavigationLink {
-                                IntroductionToNonLinearAnimationScreen(showLink: false)
-                            } label: {
-                                Label("TIME_VALUE_CHART", systemImage: "point.topleft.down.to.point.bottomright.curvepath.fill")
-                            }
-                            
-                            NavigationLink {
-                                DiscoverSwiftUIAnimationsScreen(showLink: false)
-                            } label: {
-                                Label("SWIFTUI_ANIMATIONS", systemImage: "circlebadge.2")
-                            }
-                            
-                            NavigationLink {
-                                DiscoverSwiftUICodeScreen(showLink: false)
-                            } label: {
-                                Label("SWIFTUI_CODE", systemImage: "chevron.left.forwardslash.chevron.right")
-                            }
-                            
-                            NavigationLink {
-                                IntroductionToAnchorPointScreen(showLink: false)
-                            } label: {
-                                Label("ANCHOR_POINT", systemImage: "rectangle")
-                            }
+                            ReviewListSection()
                         }
                         
                         Section(content: {
@@ -56,19 +28,19 @@ struct ExploreView: View {
                                     AnimationPrincipleDetailScreen(animationPrinciple: TwelveAnimationPrinciples[index])
                                 } label: {
                                     HStack {
-                                        Image(TwelveAnimationPrinciples[index].name)
+                                        Image(TwelveAnimationPrinciples[index].movie)
                                             .resizable()
                                             .scaledToFit()
                                             .frame(width: 50, height: 50)
                                             .clipShape(RoundedRectangle(cornerRadius: 15))
                                             .shadow(color: .black.opacity(0.1), radius: 5)
                                         
-                                        Text(TwelveAnimationPrinciples[index].name)
+                                        Text(.init(TwelveAnimationPrinciples[index].name))
                                     }
                                 }
                             }
                         }, header: {
-                            Text("12 Basic Animation Principles")
+                            Text("12_BASIC_ANIMATION_PRINCIPLES")
                         }, footer: {
                             Text("FROM_WIKIPEDIA")
                                 .foregroundStyle(.secondary)
@@ -76,41 +48,10 @@ struct ExploreView: View {
                         })
                         
                         Section(header:
-                            Button {
-                                withAnimation {
-                                    showAboutMe.toggle()
-                                }
-                            } label: {
-                                Text(showAboutMe ? "HIDE" : "SHOW")
-                            }
-                            .font(.caption)
-                            .frame(maxWidth: .infinity, alignment: .trailing)
-                            .overlay(
-                                Text("About Me"),
-                                alignment: .leading
-                            )
+                            ShowAboutMeButton()
                         ) {
                             if showAboutMe {
-                                HStack(alignment: .top) {
-                                    VStack(alignment: .leading, spacing: 7) {
-                                        Text("Hi! I′m…")
-                                        
-                                        Text("Mark View")
-                                            .font(.title)
-                                            .bold()
-                                        
-                                        Text("Sophomore at Software Engineering")
-                                        Text("Freelance Motion Designer")
-                                    }
-                                    
-                                    Spacer()
-                                    
-                                    Image("MarkView")
-                                        .resizable()
-                                        .frame(width: 60, height: 60)
-                                        .scaledToFit()
-                                        .clipShape(Circle())
-                                }
+                                MarkViewAboutMe()
                             }
                         }
                     }
@@ -118,77 +59,18 @@ struct ExploreView: View {
                         HStack {
                             List {
                                 Section("CREDITS_USED") {
-                                    VStack(alignment: .leading, spacing: 7) {
-                                        Text("Wikipedia content used in animation principles′ detail page.")
-                                        
-                                        Link(destination: URL(string: "https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation")!) {
-                                            Label("Wikipedia - Twelve basic principles of animation", systemImage: "link")
-                                        }
-                                    }
+                                    CreditsUsedListSection()
                                 }
                                 
                                 Section("REVIEW") {
-                                    NavigationLink {
-                                        IntroductionToNonLinearAnimationScreen(showLink: false)
-                                    } label: {
-                                        Label("TIME_VALUE_CHART", systemImage: "point.topleft.down.to.point.bottomright.curvepath.fill")
-                                    }
-                                    
-                                    NavigationLink {
-                                        DiscoverSwiftUIAnimationsScreen(showLink: false)
-                                    } label: {
-                                        Label("SWIFTUI_ANIMATIONS", systemImage: "circlebadge.2")
-                                    }
-                                    
-                                    NavigationLink {
-                                        DiscoverSwiftUICodeScreen(showLink: false)
-                                    } label: {
-                                        Label("SWIFTUI_CODE", systemImage: "chevron.left.forwardslash.chevron.right")
-                                    }
-                                    
-                                    NavigationLink {
-                                        IntroductionToAnchorPointScreen(showLink: false)
-                                    } label: {
-                                        Label("ANCHOR_POINT", systemImage: "rectangle")
-                                    }
+                                    ReviewListSection()
                                 }
                                 
                                 Section(header:
-                                    Button {
-                                        withAnimation {
-                                            showAboutMe.toggle()
-                                        }
-                                    } label: {
-                                        Text(showAboutMe ? "HIDE" : "SHOW")
-                                    }
-                                    .font(.caption)
-                                    .frame(maxWidth: .infinity, alignment: .trailing)
-                                    .overlay(
-                                        Text("About Me"),
-                                        alignment: .leading
-                                    )
+                                    ShowAboutMeButton()
                                 ) {
                                     if showAboutMe {
-                                        HStack(alignment: .top) {
-                                            VStack(alignment: .leading, spacing: 7) {
-                                                Text("Hi! I′m…")
-                                                
-                                                Text("Mark View")
-                                                    .font(.title)
-                                                    .bold()
-                                                
-                                                Text("Sophomore at Software Engineering")
-                                                Text("Freelance Motion Designer")
-                                            }
-                                            
-                                            Spacer()
-                                            
-                                            Image("MarkView")
-                                                .resizable()
-                                                .frame(width: 60, height: 60)
-                                                .scaledToFit()
-                                                .clipShape(Circle())
-                                        }
+                                        MarkViewAboutMe()
                                     }
                                 }
                             }
@@ -233,6 +115,83 @@ struct ExploreView: View {
             return layout1
         }
     }
+    
+    func CreditsUsedListSection() -> some View {
+        VStack(alignment: .leading, spacing: 7) {
+            Text("WIKIPEDIA_CONTENT_USAGE_ANIMATION_DETAIL_PAGE")
+            
+            Link(destination: URL(string: "https://en.wikipedia.org/wiki/Twelve_basic_principles_of_animation")!) {
+                Label("WIKIPEDIA_LINK_TITLE_12_ANIMATION_PRINCIPLES", systemImage: "link")
+            }
+        }
+    }
+    
+    func ReviewListSection() -> some View {
+        Group {
+            NavigationLink {
+                IntroductionToNonLinearAnimationScreen(showLink: false)
+            } label: {
+                Label("TIME_VALUE_CHART", systemImage: "point.topleft.down.to.point.bottomright.curvepath.fill")
+            }
+            
+            NavigationLink {
+                DiscoverSwiftUIAnimationsScreen(showLink: false)
+            } label: {
+                Label("SWIFTUI_ANIMATIONS", systemImage: "circlebadge.2")
+            }
+            
+            NavigationLink {
+                DiscoverSwiftUICodeScreen(showLink: false)
+            } label: {
+                Label("SWIFTUI_CODE", systemImage: "chevron.left.forwardslash.chevron.right")
+            }
+            
+            NavigationLink {
+                IntroductionToAnchorPointScreen(showLink: false)
+            } label: {
+                Label("ANCHOR_POINT", systemImage: "rectangle")
+            }
+        }
+    }
+    
+    func ShowAboutMeButton() -> some View {
+        Button {
+            withAnimation {
+                showAboutMe.toggle()
+            }
+        } label: {
+            Text(showAboutMe ? "HIDE" : "SHOW")
+        }
+        .font(.caption)
+        .frame(maxWidth: .infinity, alignment: .trailing)
+        .overlay(
+            Text("ABOUT_ME"),
+            alignment: .leading
+        )
+    }
+    
+    func MarkViewAboutMe() -> some View {
+        HStack(alignment: .top) {
+            VStack(alignment: .leading, spacing: 7) {
+                Text("MARKVIEW_GREETING_WORDS")
+                
+                Text("MARKVIEW")
+                    .font(.title)
+                    .bold()
+                
+                Text("MARKVIEW_INFORMATION_1")
+                Text("MARKVIEW_INFORMATION_2")
+            }
+            
+            Spacer()
+            
+            Image("MarkView")
+                .resizable()
+                .frame(width: 60, height: 60)
+                .scaledToFit()
+                .clipShape(Circle())
+        }
+    }
 }
 
 struct AnimationPrincipleCardView: View {
@@ -249,7 +208,7 @@ struct AnimationPrincipleCardView: View {
 //                .foregroundStyle(.tertiary)
 //                .mask(LinearGradient(colors: [.primary, .clear], startPoint: .top, endPoint: .bottom))
             
-            Image(animationPrinciple.name)
+            Image(animationPrinciple.movie)
                 .resizable()
                 .scaledToFill()
                 .aspectRatio(1, contentMode: .fit)
@@ -260,7 +219,7 @@ struct AnimationPrincipleCardView: View {
             HStack {
                 VStack(alignment: .leading) {
                     Spacer()
-                    Text(animationPrinciple.name)
+                    Text(.init(animationPrinciple.name))
                         .font(.subheadline)
                         .multilineTextAlignment(.leading)
                 }

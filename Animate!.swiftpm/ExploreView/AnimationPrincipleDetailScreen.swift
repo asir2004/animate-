@@ -28,22 +28,22 @@ struct AnimationPrincipleDetailScreen: View {
                 List {
                     Section(content: {
                         VStack(alignment: .leading, spacing: 5) {
-                            Text(animationPrinciple.name)
+                            Text(.init(animationPrinciple.name))
                                 .font(.title)
                                 .bold()
                             
                             Divider()
                             
-                            Text(animationPrinciple.detail)
+                            Text(.init(animationPrinciple.detail))
                         }
                     }, footer: {
-                        Text("From Wikipedia")
+                        Text("FROM_WIKIPEDIA")
                     })
                 }
             }
             .onAppear {
-                player = AVPlayer(url: Bundle.main.url(forResource: animationPrinciple.name, withExtension: "mov")!)
-                asset = AVAsset(url: Bundle.main.url(forResource: animationPrinciple.name, withExtension: "mov")!)
+                player = AVPlayer(url: Bundle.main.url(forResource: animationPrinciple.movie, withExtension: "mov")!)
+                asset = AVAsset(url: Bundle.main.url(forResource: animationPrinciple.movie, withExtension: "mov")!)
                 player!.play()
                 timer = Timer.publish(every: asset!.duration.seconds, on: .main, in: .common).autoconnect()
             }
@@ -51,12 +51,12 @@ struct AnimationPrincipleDetailScreen: View {
                 player!.seek(to: .zero)
                 player!.play()
             }
-            .navigationTitle(animationPrinciple.name)
+            .navigationTitle(.init(animationPrinciple.name))
             .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
 
 #Preview {
-    AnimationPrincipleDetailScreen(animationPrinciple: .init(name: "Staging", image: "questionmark", detail: "This is a preview animation principle."))
+    AnimationPrincipleDetailScreen(animationPrinciple: .init(name: "Staging", image: "questionmark", movie: "Staging", detail: "This is a preview animation principle."))
 }
